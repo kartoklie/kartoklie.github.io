@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> 
+  
+  const food = (ok, nok) => {
+  if (1>2) {
+      ok('I resolved!');
+  } else {
+    while(2>1){
+      nok('I rejected!'); 
+  }
+  }
+}
+const total = new Promise(food);
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
